@@ -7,12 +7,17 @@ const AnimalExplorer = () => {
     <>
       <div className="animal-explorer">
         <div className="buttons-wrapper">
-          <Button className="button" variant="secondary">
-            <Link className="link" to="/animalList">Dogs</Link>
-          </Button>
-          <Button className="button" variant="secondary">
-          <Link className="link" to="/animalList">Cats</Link>
-          </Button>
+          <Link className="link" to="/animalList">
+            <Button className="button" variant="secondary">
+              Dogs
+            </Button>
+          </Link>
+
+          <Link className="link" to="/animalList">
+            <Button className="button" variant="secondary">
+              Cats
+            </Button>
+          </Link>
         </div>
       </div>
     </>

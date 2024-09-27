@@ -1,22 +1,17 @@
 import { Link } from "react-router-dom";
 import "./AnimalExplorer.css";
-import Button from "react-bootstrap/Button";
 
 const AnimalExplorer = () => {
   return (
     <>
       <div className="animal-explorer">
         <div className="buttons-wrapper">
-          <Link className="link" to="/animalList">
-            <Button className="button" variant="secondary">
-              Dogs
-            </Button>
+          <Link className="btn btn-secondary m-2" to="/animalList/dog">
+            Dogs
           </Link>
 
-          <Link className="link" to="/animalList">
-            <Button className="button" variant="secondary">
-              Cats
-            </Button>
+          <Link className="btn btn-secondary" to="/animalList/cat">
+            Cats
           </Link>
         </div>
       </div>

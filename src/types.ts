@@ -8,5 +8,5 @@ export type Breed = {
 export type Animal = {
     id: string,
     url: string,
-    breeds: [Breed]
+    breeds?: Breed[]
 }

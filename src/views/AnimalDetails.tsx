@@ -45,7 +45,7 @@ const AnimalDetails = () => {
     <>
       <div className="container d-flex justify-content-center align-items-center">
         {animal ? (
-          <Card className="mt-3" style={{ width: "30rem" }}>
+          <Card className="mt-3 mb-3" style={{ width: "30rem" }}>
             <Card.Img variant="top" src={animal.url} />
             <Card.Body>
               {animal.breeds?.[0].name && <Card.Title>{animal.breeds?.[0].name}</Card.Title>}
